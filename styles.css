@@ -1,0 +1,87 @@
+html{
+    margin:auto;
+    padding: auto;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: auto;
+  }
+
+
+  .demo-card-square > .mdl-card__title {
+    color: #fff;
+  }
+
+.my-button{
+    border-radius: 25px;
+    width: 100%;
+}
+
+
+.mdl-button--colored:hover{
+    color: #9FF1F1;
+}
+
+div.iniciar-sesion{
+    display: flex;
+    justify-content: center;
+}
+
+.imag{
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    background-image: url('banknt.png');
+}
+
+#tarjeta{
+    background-image: url('card.png');
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.page-content{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.contenedor-tarjeta{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.info{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#monto{
+    margin-top: 20px;
+    font-size: 40px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+    text-align: right;
+}
