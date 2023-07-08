@@ -24,7 +24,7 @@ function obtenerUsuario(){
     if (buscar&&userPass){
         alert(`Bienvenid@ ${user}`)
         localStorage.setItem('usuario',user)
-        window.open('Acceso.html',"_self")
+        window.open('acceso.html',"_self")
         return user;
     } else {
         let alerta = document.getElementById('alerta');
